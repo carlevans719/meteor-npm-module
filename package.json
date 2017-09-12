@@ -1,0 +1,17 @@
+{
+  "name": "meteor-npm-module",
+  "version": "1.0.0",
+  "description": "A npm module that uses Meteor packages",
+  "main": "index.js",
+  "meteorDependencies": {
+    "webapp": "server"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@webantic/meteor-deps": "^1.1.7"
+  }
+}
